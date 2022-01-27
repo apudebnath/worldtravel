@@ -6,7 +6,7 @@ const Post = () => {
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
-        const url = 'http://localhost:5000/posts';
+        const url = 'https://still-eyrie-80115.herokuapp.com/posts';
         fetch(url)
         .then(res => res.json())
         .then(data => {

@@ -9,7 +9,7 @@ const ManageAllPost = () => {
     }
     // Show all posts from database
     useEffect(() => {
-        fetch('http://localhost:5000/posts')
+        fetch('https://still-eyrie-80115.herokuapp.com/posts')
         .then(res => res.json())
         .then(data => {
             setPosts(data);
@@ -18,7 +18,7 @@ const ManageAllPost = () => {
 
     // Update Post status
     const handleUpdate = (id) => {  
-        fetch(`http://localhost:5000/statusUpdate/${id}`,{
+        fetch(`https://still-eyrie-80115.herokuapp.com/statusUpdate/${id}`,{
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'
@@ -36,7 +36,7 @@ const ManageAllPost = () => {
     const handleDelete = (id) => {
         const proceed = window.confirm('Hey, are you SURE! to DELETE the Post?')
         if(proceed){
-            fetch(`http://localhost:5000/deletePost/${id}`,{
+            fetch(`https://still-eyrie-80115.herokuapp.com/deletePost/${id}`,{
                 method: 'DELETE',
             })
             .then(res => res.json())

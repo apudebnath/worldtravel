@@ -22,7 +22,7 @@ const AddProduct = () => {
             status: "Pending"
         };
         console.log(postInfo)
-        fetch('http://localhost:5000/posts',{
+        fetch('https://still-eyrie-80115.herokuapp.com/posts',{
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

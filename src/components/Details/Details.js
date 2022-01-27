@@ -10,7 +10,7 @@ const Details = () => {
 
     // get data database to ui
     useEffect(() => {
-        const url = (`http://localhost:5000/posts/${id}`)
+        const url = (`https://still-eyrie-80115.herokuapp.com/posts/${id}`)
         fetch(url)
         .then(res => res.json())
         .then(data => setPost(data))
