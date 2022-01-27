@@ -1,10 +1,15 @@
 import React from 'react';
+import BlogPost from '../BlogPost/BlogPost';
+import Header from '../Header/Header';
+import ServicePoint from '../ServicePoint/ServicePoint';
 
 
 const Home = () => {
     return (
         <div>
-           <h2 className="text-3xl font-bold text-center underline p text-amber-700 bg-slate-100 p-3">Home</h2> 
+           <Header/>
+           <ServicePoint/>
+           <BlogPost/>
 
         </div>
     );

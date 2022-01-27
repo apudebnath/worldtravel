@@ -43,7 +43,7 @@ const handleGoogleLogin = () => {
                             <img className='object-cover' src={image} alt="" />
                             
                         </div>
-                        <div className='basis-full md:basis-1/2 pt-3 md:pt-0 px-8'>
+                        <div className='basis-full md:basis-1/2 pt-3 md:pt-2 px-8'>
                             <h1 className='text-center pt-3'>We are all together</h1>
                             
                             <form onSubmit={handleFormSubmit} className="shadow-md bg-white rounded p-5">

@@ -12,6 +12,7 @@ import AdminRoute from './components/Login/AdminRoute/AdminRoute';
 import ManageAllPost from './components/Admin/ManageAllPost/ManageAllPost';
 import AddPost from './components/AddPost/AddPost'
 import Details from './components/Details/Details';
+import Footer from './components/Shared/Footer/Footer';
 
 function App() {
   
@@ -30,6 +31,7 @@ function App() {
       <Route path="makeadmin" element={<AdminRoute><MakeAdmin /></AdminRoute>} />
       <Route path="manageallpost" element={<AdminRoute><ManageAllPost /></AdminRoute>} />
       </Routes>
+      <Footer/>
     </AuthProvider>
     </>
   );

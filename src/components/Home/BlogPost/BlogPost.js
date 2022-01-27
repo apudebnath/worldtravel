@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link, } from 'react-router-dom';
 
 
-const Post = () => {
+const BlogPost = () => {
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
@@ -14,7 +14,7 @@ const Post = () => {
                     setPosts(restOfPosts);
         })
     } , [])
-console.log(posts);
+
     return (
         <div className=' flex items-center justify-center bg-gray-100 py-5'>
             <div className='text-center px-4 md:px-10'>
@@ -48,4 +48,4 @@ console.log(posts);
     );
 };
 
-export default Post;
+export default BlogPost;
