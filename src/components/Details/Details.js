@@ -38,10 +38,10 @@ const Details = () => {
                     <div className='md:flex justify-between items-center'>
                         <div className='basis-full md:basis-3/5 md:flex pt-2'>
                             <div className='basis-full md:basis-1/2 md:pr-1 pt-2'>
-                                <img className='object-cover' src={post.imageOne} alt="" />
+                                <img className='object-cover rounded-lg' src={post.imageOne} alt="" />
                             </div>
                             <div className='basis-full md:basis-1/2 md:pl-1 pt-2'>
-                                <img className='object-cover' src={post.imageTwo} alt="" />
+                                <img className='object-cover rounded-lg' src={post.imageTwo} alt="" />
                             </div>
                         </div>
                         <div className='basis-full md:basis-2/5 md:pl-10 pt-2'>

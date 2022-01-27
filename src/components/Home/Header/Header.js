@@ -22,7 +22,7 @@ const Header = () => {
                     <p className='text-xl'>
                         Traveling is a most powerful way to maintain and minimize your daily life stress and keep fresh mentally and physically.
                     </p>
-                    <Link to="/services" >
+                    <Link to="/blog" >
                         <button  className='bg-orange-500 hover:bg-orange-600 rounded px-5 py-2 mt-5'>Know More</button>
                     </Link>
                 </div>
