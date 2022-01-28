@@ -8,8 +8,8 @@ const ExclusiveTour = () => {
         <div className=' flex items-center justify-center bg-opacity-.1 pt-10 pb-16 mx-6 md:px-10'>
             <div className='grid grid-cols md:grid-cols-2 gap-10'>
                 <div >
-                    <h2 className='text-xl'>Easy and Enjoy</h2>
-                    <h2 className='text-4xl font-bold'>Share your Exclusive tour session <br /> with our community</h2>
+                    <h2 className='text-xl text-orange-600 pl-10'>Easy and Enjoy</h2>
+                    <h2 className='text-4xl font-semibold pl-10'>Share your Exclusive tour session <br /> with our community</h2>
                     <div className='flex justify-center items-center p-10'>
                         <div className='p-5'>
                             <img src={image1} alt="" className='object-cover'/>

@@ -14,7 +14,7 @@ const bannerBackground = {
 const Challenge = () => {
     return (
         <div style={bannerBackground}>
-            <div className='h-96 flex justify-center items-center px-10'>
+            <div className='h-96 flex justify-center items-center mt-16 px-10'>
                 <div className='text-white'>
                     <p className='text-5xl'>
                     Tour on Demand

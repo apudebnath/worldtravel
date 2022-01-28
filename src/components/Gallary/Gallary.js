@@ -11,11 +11,12 @@ const image9 = ('https://i.ibb.co/2Mv3Mfm/image1.jpg');
 const image10 = ('https://i.ibb.co/yphtPTb/image2.jpg');
 const image11 = ('https://i.ibb.co/mD5FDjd/image3.jpg');
 const image12 = ('https://i.ibb.co/6YkHWgG/image4.jpg');
+
 const Gallary = () => {
     return (
-        <div className=' flex items-center justify-center bg-gray-100 py-35 px-10'>
+        <div className=' flex items-center justify-center bg-gray-100 py-20 px-10'>
             <div className='text-center'>
-                <h2 className='text-3xl py-5'>Our Gallery </h2>
+                <h2 className='text-3xl font-semibold py-5'>Our Gallery </h2>
                 <div className="grid grid-cols md:grid-cols-4 gap-6 ">
                     <div className='rounded'>
                         <img className='rounded' src={image1} alt="" />

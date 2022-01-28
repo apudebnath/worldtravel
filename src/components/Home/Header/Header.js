@@ -14,12 +14,12 @@ const bannerBackground = {
 const Header = () => {
     return (
         <div style={bannerBackground}>
-            <div className='h-screen flex justify-right items-center'>
-                <div className='text-white'>
-                    <p className='text-5xl px-10'>
+            <div className='h-screen flex justify-center items-center'>
+                <div className='text-white '>
+                    <p className='text-5xl px-10 text-left'>
                         Travel is the power fo <br/> Refreshment in your LIFE
                     </p>
-                    <p className='text-xl px-10'>
+                    <p className='text-xl px-10 text-left'>
                         Traveling is a most powerful way to maintain and minimize your daily life stress and keep fresh mentally and physically.
                     </p>
                     <p className='px-10'>
