@@ -19,9 +19,9 @@ const BlogPost = () => {
         <div className=' flex items-center justify-center bg-gray-100 py-5'>
             <div className='text-center px-4 md:px-10 pb-10'>
                 <h2 className='text-3xl font-semibold py-5'>Exclusive Tour info</h2>
-                <div className="grid grid-cols md:grid-cols-3 gap-14 ">
+                <div className="grid grid-cols md:grid-cols-4 gap-10 ">
                     {
-                        posts.slice(0,12).map(post => <div  key={post._id}>
+                        posts.slice(0,8).map(post => <div  key={post._id}>
                             <div className='bg-white p-3 shadow-lg rounded'>
                                 <div className='basis-full md:basis-1/2'>
                                     <img className='object-cover' src={post.imageOne} alt="" />  

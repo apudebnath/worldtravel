@@ -25,7 +25,7 @@ function App() {
       <Route path="home" element={<Home/>} />
       <Route path="blog" element={<PrivateRoute><Blog/></PrivateRoute>} />
       <Route path="addpost" element={<PrivateRoute><AddPost/></PrivateRoute>} />
-      <Route path="/details/:id" element={<Details/>}></Route>
+      <Route path="/details/:id" element={<PrivateRoute><Details/></PrivateRoute>}></Route>
       <Route path="login" element={<Login />} />
       <Route path="register" element={<Register />} />
       <Route path="makeadmin" element={<AdminRoute><MakeAdmin /></AdminRoute>} />

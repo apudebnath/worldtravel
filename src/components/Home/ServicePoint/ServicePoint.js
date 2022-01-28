@@ -6,11 +6,11 @@ import image4 from '../../../images/icon4.png';
 
 const ServicePoint = () => {
     return (
-        <div className=' flex items-center justify-center bg-opacity-.1 pt-5 pb-10 mx-28 -mt-32'>
+        <div className=' flex items-center justify-center bg-opacity-.1 pt-5 pb-10 mx-10 md:mx-28 md:-mt-40'>
             <div className='text-center px-4 md:px-20'>
-                <p className='text-3xl font-semibold py-5'>Offer Best Service for You</p>
+                <p className='text-3xl font-semibold py-10'>Offer Best Service for You</p>
                 <div className="grid grid-cols md:grid-cols-4 gap-10 ">
-                    <div className='bg-white p-3 shadow-xl rounded' >
+                    <div className='bg-white py-5 px-3 shadow-xl rounded' >
                         <div className='flex justify-center items-center'>
                             <img src={image1} alt="" style={{width: '100px', height: '100px'}}/>
                         </div>
@@ -21,7 +21,7 @@ const ServicePoint = () => {
                           We ensure friendly ecosystem to understand each others. Perfectly concentrate our process and ultimately achieve out goal.
                         </p>
                     </div>
-                    <div className='bg-white p-3 shadow-xl rounded' >
+                    <div className='bg-white py-5 px-3 shadow-xl rounded' >
                         <div className='flex justify-center items-center'>
                             <img src={image2} alt="" style={{width: '100px', height: '100px'}}/>
                         </div>
@@ -32,7 +32,7 @@ const ServicePoint = () => {
                           We ensure friendly ecosystem to understand each others. Perfectly concentrate our process and ultimately achieve out goal.
                         </p>
                     </div>
-                    <div className='bg-white p-3 shadow-xl rounded' >
+                    <div className='bg-white py-5 px-3 shadow-xl rounded' >
                         <div className='flex justify-center items-center'>
                             <img src={image3} alt="" style={{width: '100px', height: '100px'}}/>
                         </div>
@@ -43,7 +43,7 @@ const ServicePoint = () => {
                           We ensure friendly ecosystem to understand each others. Perfectly concentrate our process and ultimately achieve out goal.
                         </p>
                     </div>
-                    <div className='bg-white p-3 shadow-xl rounded' >
+                    <div className='bg-white py-5 px-3 shadow-xl rounded' >
                         <div className='flex justify-center items-center'>
                             <img src={image4} alt="" style={{width: '100px', height: '100px'}}/>
                         </div>

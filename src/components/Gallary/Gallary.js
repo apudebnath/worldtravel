@@ -12,7 +12,7 @@ const Gallary = () => {
         <div className=' flex items-center justify-center bg-gray-100 py-35 px-10'>
             <div className='text-center'>
                 <h2 className='text-3xl py-5'>Our Gallery </h2>
-                <div className="grid grid-cols md:grid-cols-3 gap-6 ">
+                <div className="grid grid-cols md:grid-cols-4 gap-6 ">
                     <div className='rounded'>
                         <img className='rounded' src={image1} alt="" />
                     </div>

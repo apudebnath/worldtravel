@@ -9,7 +9,7 @@ import ServicePoint from '../ServicePoint/ServicePoint';
 
 const Home = () => {
     return (
-        <div className='pb-10'>
+        <div className='pb-10 bg-gray-100'>
            <Header/>
            <ServicePoint/>
            <ExclusiveTour/>
