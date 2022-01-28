@@ -6,10 +6,10 @@ import {HiOutlineMenuAlt3} from 'react-icons/hi';
 import useAuth from '../../../Hooks/useAuth';
 
 const Navigation = () => {
-    const {user, logOut} = useAuth();
+    const {user, admin, logOut} = useAuth();
     const [showNav, setShowNav] = useState(false);
     return (
-        <nav className='md:flex justify-between items-center bg-white md:px-16 py-4 sticky top-0 z-99'>
+        <nav className='md:flex justify-between items-center bg-white md:px-16 py-2 md:py-4 sticky top-0 z-99'>
             <div  className="flex justify-between items-center">
                 <Link to="/"> 
                     <img className='w-22 h-16 p-2' src={logo} alt="" />
@@ -26,8 +26,9 @@ const Navigation = () => {
                 <NavLink to="/blog">Blog</NavLink>
                 <NavLink to="/addpost">AddPost</NavLink>
                 <NavLink to="/register">Register</NavLink>
-                <NavLink to="/makeAdmin">MakeAdmin</NavLink>
+                {(user.email && admin) && <><NavLink to="/makeAdmin">MakeAdmin</NavLink>
                 <NavLink to="/manageallpost">ManageAllPost</NavLink>
+                </>}
                 {user.email ? <>
                     <span onClick={logOut} className='cursor-pointer'><p>LogOut</p></span>
                 </>

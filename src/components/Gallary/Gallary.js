@@ -7,6 +7,10 @@ const image5 = ('https://i.ibb.co/zJVpLS3/manali1.jpg');
 const image6 = ('https://i.ibb.co/7X75HYd/manali2.jpg');
 const image7 = ('https://i.ibb.co/k1pNsxb/kashmir1.jpg');
 const image8 = ('https://i.ibb.co/ydRVWtb/kashmir2.jpg');
+const image9 = ('https://i.ibb.co/2Mv3Mfm/image1.jpg');
+const image10 = ('https://i.ibb.co/yphtPTb/image2.jpg');
+const image11 = ('https://i.ibb.co/mD5FDjd/image3.jpg');
+const image12 = ('https://i.ibb.co/6YkHWgG/image4.jpg');
 const Gallary = () => {
     return (
         <div className=' flex items-center justify-center bg-gray-100 py-35 px-10'>
@@ -38,7 +42,16 @@ const Gallary = () => {
                         <img className='rounded' src={image8} alt="" />
                     </div>
                     <div className='rounded'>
-                        <img className='rounded' src={image5} alt="" />
+                        <img className='rounded' src={image9} alt="" />
+                    </div>
+                    <div className='rounded'>
+                        <img className='rounded' src={image10} alt="" />
+                    </div>
+                    <div className='rounded'>
+                        <img className='rounded' src={image11} alt="" />
+                    </div>
+                    <div className='rounded'>
+                        <img className='rounded' src={image12} alt="" />
                     </div>
                     
                     

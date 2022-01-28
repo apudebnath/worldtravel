@@ -2,8 +2,11 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../Hooks/useAuth';
 import { useLocation, useNavigate } from 'react-router-dom';
-import image from '../../../images/natural.jpg';
+// import image from '../../../images/natural.jpg';
 import {FcGoogle} from 'react-icons/fc';
+
+const image = ('https://i.ibb.co/2Mv3Mfm/image1.jpg')
+
 const Login = () => {
     const [loginData, setLoginData] = useState({});
     const {signInWithEmail, user, isLoading, authError, googleSignIn, resetPassword} = useAuth();
@@ -28,9 +31,9 @@ const handleGoogleLogin = () => {
 }
     return (
         <>
-            <div className='h-screen flex items-center justify-center bg-gray-100 py-5'>
-                <div>
-                    <h2 className="text-3xl font-bold text-center underline text-amber-700 p-3">Login</h2>
+            <div className=' flex items-center justify-center bg-gray-100 '>
+                <div className='py-10'>
+                    <h2 className="text-4xl font-bold text-center underline text-amber-700 px-3 pb-5">Login</h2>
                     {isLoading && <div className='flex justify-center items-center py-10'>
                         <button type="button" className="bg-indigo-500 rounded ..." disabled>
                             <svg className="animate-spin h-5 w-5 mr-3 ..." viewBox="0 0 24 24">
